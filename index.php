@@ -164,7 +164,7 @@ body {
 <div class="footer">
   <p>Copyright &copy 2020. All rights reserved.</p>
   <p>Fan Page💕</p>
-  <p>Crafted with ❤ by <a href="https://www.linkedin.com/in/narayana-raj-g-7050391a5/">Narayana Raj Govindaraju</a></p>
+  <p>Crafted with ❤ by <a href="https://www.linkedin.com/in/narayana-raj-g-7050391a5/" target="_blank" style="color: dodgerblue; text-decoration: none;">Narayana Raj Govindaraju</a></p>
 </div>
 
 </body>
