@@ -103,15 +103,11 @@ body {
     background-position: center;
     padding: 150px;
   }
-  .header h1{
-    margin-top: 80%;
-    left: 0%;
-  }
   .header h1::before{
     left: 61%;
   }
   .header h1:hover::before{
-    left: 110%;
+    display: none;
   }
   .navbar{
     overflow: visible;
