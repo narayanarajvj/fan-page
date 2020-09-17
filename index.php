@@ -104,7 +104,8 @@ body {
     padding: 150px;
   }
   .header h1{
-    margin-top: 80%;   
+    margin-top: 80%;
+    left: 0%;
   }
   .header h1::before{
     left: 61%;
