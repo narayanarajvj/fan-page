@@ -90,6 +90,7 @@ body {
   body {   
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
   }
   .header .main {
     -ms-flex: 70%;
@@ -103,16 +104,20 @@ body {
     padding: 150px;
   }
   .header h1{
-    margin-top: 70%;   
+    margin-top: 80%;   
   }
   .header h1::before{
-    left: 53%;
+    left: 61%;
   }
   .header h1:hover::before{
-    left: 90%;
+    left: 110%;
   }
   .navbar{
     overflow: visible;
+  }
+  .img-size{
+    width: 100%;
+    height: 30%;
   }
 }
 </style>
@@ -142,7 +147,7 @@ body {
    Malayalam languages. The film was initially scheduled to release theatrically on 9 April 2020, but indefinitely got 
    postponed due to the COVID-19 pandemic.</p>
   <br>
-  <img src="vj4.jfif" height="400px" width="700px">
+  <img class= "img-size" src="vj4.jfif" height="400px" width="700px">
 </div>
 <div class="footer">
   <p>Copyright &copy 2020. All rights reserved.</p>
