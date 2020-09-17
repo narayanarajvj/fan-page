@@ -8,25 +8,21 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
 }
-
 .header {
   padding: 130px;
   background-image: url(vj6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.header-text {
+/* .header-text {
   color: white;
   font-weight: bold;
   position: relative;
   text-align: center;
-}
-
+} */
 .header h1 {
   z-index: 999;
   font-family: "oswald", sans-serif;
@@ -35,8 +31,8 @@ body {
   cursor: none;
   transition: 0.1s ease-in;
   color: rgb(255, 238, 6);
+  position: relative;
 }
-
 .header h1::before {
   content: "THALAPATHY";
   font-size: 15px;
@@ -46,7 +42,6 @@ body {
   transition: 0.2s ease-in-out;
   left: 9%;
 }
-
 .header h1:hover::before {
   content: "VIJAY";
   transform: rotateZ(90deg);
@@ -56,11 +51,9 @@ body {
   color:white;
   font-weight: bolder;
 }
-
 .header h1:hover {
   letter-spacing: 2px;
 }
-
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -68,7 +61,6 @@ body {
   position: -webkit-sticky;
   top: 0;
 }
-
 .navbar a {
   float: left;
   display: block;
@@ -78,28 +70,23 @@ body {
   color: rgb(185, 185, 185);
   font-family: "poppins", sans-serif;
 }
-
 .navbar a:hover {
   background-color: #ddd;
   color: black;
 }
-
 .navbar a.active {
   background-color: #666;
   color: white;
 }
-
-.row {  
+/* .row {  
   display: -ms-flexbox; 
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-}
-
-
+} */
 .main {   
-  -ms-flex: 70%;
-  flex: 70%;
+  /* -ms-flex: 70%;
+  flex: 70%; */
   background-color: rgb(66, 66, 66);
   padding: 20px;
   font-family: "Oswald", sans-serif;
@@ -107,24 +94,39 @@ body {
   color: aliceblue;
   height: fit-content;
 }
-
 .footer {
   padding: 20px;
   text-align: right;
   background: #ddd;
   font-family: "poppins", sans-serif;
 }
-
 @media screen and (max-width: 700px) {
   body {   
-    flex-direction: column;
+    display: -ms-flexbox;
+    display: flex;
   }
-}
-
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
+  .header .main {
+    -ms-flex: 70%;
+    flex: 70%;
+  }
+  .header {
+    background-image: url("vj6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+  }
+  .header h1{
+    margin-top: 70%;   
+  }
+  .header h1::before{
+    left: 53%;
+  }
+  .header h1:hover::before{
+    left: 90%;
+  }
+  .navbar{
+    overflow: visible;
   }
 }
 </style>
@@ -142,7 +144,7 @@ body {
   <a href="radio.html">Radio</a>
 </div>
 
-<div class="row">
+<!-- <div class="row"> -->
   <div class="main">
     <h1>MASTER</h1>
     <h5>Joseph Vijay Chandrashekar</h5>
@@ -155,16 +157,13 @@ body {
       Malayalam languages. The film was initially scheduled to release theatrically on 9 April 2020, but indefinitely got 
       postponed due to the COVID-19 pandemic.</p>
       <br>
-
     <img src="vj4.jfif" height="400px" width="700px">
   </div>
-</div>
-
+<!-- </div> -->
 <div class="footer">
   <p>Copyright &copy 2020. All rights reserved.</p>
   <p>Fan Page💕</p>
   <p>Crafted with ❤ by <a href="https://www.linkedin.com/in/narayana-raj-g-7050391a5/" target="_blank" style="color: dodgerblue; text-decoration: none;">Narayana Raj Govindaraju</a></p>
 </div>
-
 </body>
 </html>
