@@ -117,7 +117,7 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-  .row {   
+  body {   
     flex-direction: column;
   }
 }
