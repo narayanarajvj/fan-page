@@ -17,12 +17,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* .header-text {
-  color: white;
-  font-weight: bold;
-  position: relative;
-  text-align: center;
-} */
 .header h1 {
   z-index: 999;
   font-family: "oswald", sans-serif;
@@ -78,15 +72,7 @@ body {
   background-color: #666;
   color: white;
 }
-/* .row {  
-  display: -ms-flexbox; 
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-} */
 .main {   
-  /* -ms-flex: 70%;
-  flex: 70%; */
   background-color: rgb(66, 66, 66);
   padding: 20px;
   font-family: "Oswald", sans-serif;
@@ -144,22 +130,20 @@ body {
   <a href="radio.html">Radio</a>
 </div>
 
-<!-- <div class="row"> -->
-  <div class="main">
-    <h1>MASTER</h1>
-    <h5>Joseph Vijay Chandrashekar</h5>
-    <img src="vj5.jpg" height= 250px>
-    <p>Master is an upcoming Indian Tamil-language action-thriller film written and directed by Lokesh Kanagaraj, 
-      and produced by Xavier Britto, under the banner XB Film Creators. The film stars Vijay and Vijay Sethupathi 
-      in the leading roles whilst Malavika Mohanan, Arjun Das, Andrea Jeremiah and Shanthanu Bhagyaraj play supporting 
-      roles. The music for the film is composed by Anirudh Ravichander, whilst cinematography and editing are handled 
-      by Sathyan Sooryan and Philomin Raj, respectively. The film will be released in Tamil, Telugu, Hindi, Kannada, and 
-      Malayalam languages. The film was initially scheduled to release theatrically on 9 April 2020, but indefinitely got 
-      postponed due to the COVID-19 pandemic.</p>
-      <br>
-    <img src="vj4.jfif" height="400px" width="700px">
-  </div>
-<!-- </div> -->
+<div class="main">
+  <h1>MASTER</h1>
+  <h5>Joseph Vijay Chandrashekar</h5>
+  <img src="vj5.jpg" height= 250px>
+  <p>Master is an upcoming Indian Tamil-language action-thriller film written and directed by Lokesh Kanagaraj, 
+   and produced by Xavier Britto, under the banner XB Film Creators. The film stars Vijay and Vijay Sethupathi 
+   in the leading roles whilst Malavika Mohanan, Arjun Das, Andrea Jeremiah and Shanthanu Bhagyaraj play supporting 
+   roles. The music for the film is composed by Anirudh Ravichander, whilst cinematography and editing are handled 
+   by Sathyan Sooryan and Philomin Raj, respectively. The film will be released in Tamil, Telugu, Hindi, Kannada, and 
+   Malayalam languages. The film was initially scheduled to release theatrically on 9 April 2020, but indefinitely got 
+   postponed due to the COVID-19 pandemic.</p>
+  <br>
+  <img src="vj4.jfif" height="400px" width="700px">
+</div>
 <div class="footer">
   <p>Copyright &copy 2020. All rights reserved.</p>
   <p>Fan Page💕</p>
